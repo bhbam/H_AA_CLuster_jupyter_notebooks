@@ -7,3 +7,4 @@ jupy.sh
 *.pkl
 *.root
 *.png
+data*
