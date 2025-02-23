@@ -8,3 +8,4 @@ jupy.sh
 *.root
 *.png
 data*
+*.txt
