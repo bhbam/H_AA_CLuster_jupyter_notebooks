@@ -8,3 +8,5 @@ jupy.sh
 *.root
 *.png
 data*
+*.txt
+AN_Note_Plot/
