@@ -8,7 +8,7 @@ args = parser.parse_args()
 
 local= args.local
 output_json_file = args.output_json
-rhFileList = '/eos/uscms%s/output*.root'%(local)
+rhFileList = '/eos/uscms%s/*.root'%(local)
 rhFileList = sorted(glob.glob(rhFileList))
 assert len(rhFileList) > 0
 total_files = len(rhFileList)
